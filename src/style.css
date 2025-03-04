@@ -1,5 +1,43 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
+body {
+    background: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 
-body{
-    background: white;
+.centered {
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    border-radius: 4%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 9px rgba(0, 0, 0, 0.782);
+}
+
+.paloSuperior {
+    font-size: 120px;
+    border: 0;
+    margin-right: auto;
+    padding-left: 1.5rem;
+
+}
+
+.numero {
+    font-size: 150px;
+    text-align: center;
+    justify-content: center;
+}
+
+.paloInferior {
+    font-size: 120px;
+    border: 0;
+    margin-left: auto;
+    padding-right: 1.5rem;
+}
+
+.rojo {
+    color: red;
 }
